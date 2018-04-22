@@ -1,0 +1,7 @@
+-cp src
+-lib externtype
+-lib hxnodejs
+-js dist/dummy.js
+-debug
+--no-inline
+--no-output

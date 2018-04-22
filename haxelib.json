@@ -1,0 +1,15 @@
+{
+    "name": "extern-koa",
+    "url": "https://github.com/DenkiYagi/haxe-extern-koa",
+    "description": "Haxe extern definitions for Koa.js",
+    "license": "Apache",
+    "version": "2.5.0",
+    "releasenote": "",
+    "classPath": "src",
+    "contributors": ["terurou"],
+    "tags": ["js", "nodejs", "koa", "web", "http", "extern"],
+    "dependencies": {
+        "externtype": "git:https://github.com/DenkiYagi/haxe-extern-type",
+        "hxnodejs": "git:https://github.com/HaxeFoundation/hxnodejs"
+    }
+}
