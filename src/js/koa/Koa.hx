@@ -8,7 +8,6 @@ import js.node.net.Server.ServerListenOptionsUnix;
 import js.node.http.Server;
 import js.node.http.IncomingMessage;
 import js.node.http.ServerResponse;
-import haxe.Constraints.Function;
 import externtype.Mixed2;
 import externtype.ValueOrArray;
 
@@ -55,7 +54,7 @@ extern class Koa {
      * Return a request handler callback
      * for node's native http server.
      */
-    function callback(): Function;
+    function callback(): IncomingMessage -> ServerResponse -> Void;
 }
 
 extern class RequestBase {
