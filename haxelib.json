@@ -9,7 +9,7 @@
     "contributors": ["terurou"],
     "tags": ["js", "nodejs", "koa", "web", "http", "extern"],
     "dependencies": {
-        "externtype": "1.0.0",
-        "hxnodejs": "git:https://github.com/HaxeFoundation/hxnodejs"
+        "externtype": "1.0.1",
+        "hxnodejs": "4.0.9"
     }
 }
