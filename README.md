@@ -1,7 +1,7 @@
 # Haxe extern definitions for Koa.js
 ## Install
 ```
-haxelib install koa
+haxelib git koa https://github.com/DenkiYagi/haxe-extern-koa
 ```
 
 ## Example
